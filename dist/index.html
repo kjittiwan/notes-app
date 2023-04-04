@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Notes</title>
+</head>
+<body>
+  <div class="content">
+    <div class="header">
+      <h1 class="logo">Notes</h1>
+    </div>
+    <div class="main">
+      <button class="add-btn" id="addBtn">+ Add note</button>
+      <div class="card-container" id="cardContainer">   
+      </div>
+    </div>
+    <div class="form-modal" id="formModal">
+      <form action="" id="notesForm">
+        <input 
+        type="text"
+        class="title-input"
+        id="title"
+        name="title"
+        placeholder="Title"
+        >
+        <textarea class="note-input"
+        id="note"
+        name="note"
+        placeholder="What's on your mind..?"></textarea>
+        
+        
+        <button type="submit" class="submit-btn">Add</button>
+      </form>
+    </div>
+    <div class="edit-modal" id="editModal">
+      <form action="" id="editForm">
+        <input 
+        type="text"
+        class="title-edit"
+        id="titleEdit"
+        name="title-edit"
+        placeholder="Title"
+        >
+        <textarea class="note-input"
+        id="noteEdit"
+        name="note-edit"
+        placeholder="What's on your mind..?"></textarea>
+        
+        
+        <button type="submit" class="submit-btn">Make changes</button>
+
+  </div>
+  <div class="footer">
+    <p>Copyright © 2023 kannjittiwan</p>
+  </div>  
+<script src="main.js"></script>
+</body>
+</html>
